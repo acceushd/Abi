@@ -1,7 +1,7 @@
-public class Main extends Rechenarten {
+public class Main {
     public static void main(String[] args) {
-        Dogs doggo = new Dogs("Black");
-        System.out.println(doggo.getName());
-        System.out.println(doggo.getLegs());
+        Fakultät tmp = new Fakultät();
+        int zahl = -5;
+        System.out.println(tmp.ursprünglicheZahl(zahl));
     }
 }
