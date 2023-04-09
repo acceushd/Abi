@@ -8,6 +8,8 @@ Sortiertverfahren:
 
 Klassenbeispiele:
 - Abstrakte Klassen
-  - Humans
-  - Dogs
-  - Animals
+  - Animals:
+    - Dogs
+    - Humans
+- Inhertance
+  - Rechenarten zu BeispielTaschenrechner
