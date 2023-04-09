@@ -17,3 +17,11 @@ Klassenbeispiele:
 Rekursionsbeispiele:
 - Fakultät
 - Fibonacci
+
+Datenstrukturen:
+- Zweidimensionales Array
+- Binärbaum
+- Knoten
+- LinkedList
+- Queue
+- Stack
