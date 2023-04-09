@@ -1,3 +1,5 @@
+package Inhertance;
+
 public class Rechenarten {
     static int addition(int num1, int numb2) {
         return getAddition(num1, numb2);

@@ -1,3 +1,5 @@
+package Sort;
+
 public class SelectionSort {
     public void sort(int[] array) {
         int length = array.length;

@@ -1,3 +1,5 @@
+package Abstract;
+
 public class Dogs extends Animals {
     public Dogs(String name, int legs) {
         super(name);

@@ -1,3 +1,5 @@
+package Inhertance;
+
 public class BeispielTaschenrechner extends Rechenarten{
     public static void main(String[] args) {
         int num1 = 2;

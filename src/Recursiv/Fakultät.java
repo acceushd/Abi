@@ -1,3 +1,5 @@
+package Recursiv;
+
 public class Fakultät {
     int ursprünglicheZahl(int uZahl) {
         return rechner(uZahl);

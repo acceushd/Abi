@@ -1,3 +1,5 @@
+package Abstract;
+
 public abstract class Animals {
     private final String name;
 

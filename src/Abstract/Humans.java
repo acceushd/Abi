@@ -1,3 +1,5 @@
+package Abstract;
+
 public class Humans extends Animals {
 
     public Humans(String name) {

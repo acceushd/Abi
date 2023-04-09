@@ -1,3 +1,5 @@
+package Recursiv;
+
 public class Fibonacci {
     int fibonacci(int stelle) {
         return rechnen(stelle);
