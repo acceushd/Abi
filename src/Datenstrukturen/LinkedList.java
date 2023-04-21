@@ -5,9 +5,12 @@ public class LinkedList {
 
     LinkedList() {
         wurzel = null;
+        size = 0;
     }
 
-    void add(int data) {
+    int size;
+
+    public void add(int data) {
         Knoten neuerKnoten = new Knoten(data);
 
         if (wurzel == null) {
@@ -19,9 +22,31 @@ public class LinkedList {
             }
             current.next = neuerKnoten;
         }
+        size++;
     }
 
-    void delete(int data) {
+    public int get(int index) {
+        return getAt(index);
+    }
+
+    private int getAt(int index) {
+        Knoten tmp = wurzel;
+        int currentIndex = 0;
+        while (tmp.next != null) {
+            if (currentIndex == index) {
+                return wurzel.data;
+            }
+            tmp = tmp.next;
+            currentIndex++;
+        }
+        return -1;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void delete(int data) {
         if (wurzel == null) {
             System.out.println("Liste ist leer");
             return;
